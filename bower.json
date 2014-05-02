@@ -1,8 +1,5 @@
 {
   "name": "infogramma",
   "homepage": "https://github.com/hidinginabunker/infogramma",
-  "private": true,
-  "dependencies": {
-    "d3": "~3.4.6"
-  }
+  "private": true
 }
