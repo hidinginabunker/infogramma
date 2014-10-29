@@ -2,4 +2,4 @@
 
 # Docs for this image can be found here:
 # https://registry.hub.docker.com/u/ipython/notebook/
-FROM ipython/notebook
+FROM ipython/scipyserver
