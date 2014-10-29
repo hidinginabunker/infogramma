@@ -15,5 +15,5 @@ If you're boot2dockerin' on osx, then the server is now exposed on the port of y
 echo https://`boot2docker ip 2> /dev/null | cut -d":" -f2`
 ```
 
-TODO:
-- Fix websocket connection failing
+Issues:
+- Websockets fail in safari
