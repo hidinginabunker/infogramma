@@ -1,7 +1,7 @@
 infogramma
 ==========
 
-Initialize the notebook env:
+## Initialize the notebook env
 
 ```
 # Build the docker image for this repo
@@ -15,5 +15,12 @@ If you're boot2dockerin' on osx, then the server is now exposed on the port of y
 echo https://`boot2docker ip 2> /dev/null | cut -d":" -f2`
 ```
 
+
+## Viewing Notebooks
+http://nbviewer.ipython.org/github/hidinginabunker/infogramma/tree/master/notebooks/
+
+
 Issues:
 - Websockets fail in safari
+
+
