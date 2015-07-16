@@ -5,9 +5,9 @@ infogramma
 
 ```
 # Build the docker image for this repo
-docker build -t hidinginabunker/infogramma .
+docker build .
 # Run this image and mount the notebooks folder to this dir
-docker run -d -p 443:8888 -e "PASSWORD=MakeAPassword" -v $PWD/notebooks:/notebooks hidinginabunker/infogramma
+docker run -d -p 443:8888 -e "PASSWORD=password" -v $PWD/notebooks:/notebooks ipython/scipyserver
 ```
 
 If you're boot2dockerin' on osx, then the server is now exposed on the port of your VM:
